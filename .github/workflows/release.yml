@@ -43,7 +43,7 @@ jobs:
       # allows for selecting files with a pattern.
       # https://github.com/actions/upload-release-asset/issues/4
       #uses: actions/upload-release-asset@v1.0.1
-      uses: csexton/release-asset-action@master
+      uses: csexton/release-asset-action@main
       with:
         pattern: "bundles/*"
         github-token: ${{ secrets.GITHUB_TOKEN }}
